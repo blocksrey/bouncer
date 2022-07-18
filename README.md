@@ -9,7 +9,7 @@ local bouncer0 = bouncer.new({
 	velocity = 3;
 	minimum = -1;
 	maximum = 2;
-	elasticity = 0.83
+	elasticity = 0.83;
 })
 
 onupdate(function(time_now)
