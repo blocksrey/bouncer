@@ -3,6 +3,7 @@ Analytical solution to a bouncing ball written in Lua. Evaluate the position of 
 
 ![](assets/bounce.gif)
 
+## Implementation
 ```lua
 local bouncer = require("bouncer")
 
