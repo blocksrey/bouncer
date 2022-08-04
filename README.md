@@ -7,11 +7,11 @@ Analytical solution to a bouncing ball written in Lua. Evaluate the position of 
 local bouncer = require("bouncer")
 
 local bouncer0 = bouncer.new({
-	position = 0;
-	velocity = 3;
+	position = 1;
+	velocity = 40;
 	minimum = -1;
 	maximum = 2;
-	elasticity = 0.83;
+	elasticity = 0.8;
 })
 
 onupdate(function(time_now)
