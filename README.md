@@ -1,5 +1,5 @@
 # Bouncer
-Analytical solution to a bouncing ball written in Lua. Evaluate the position of a ball given initial conditions elasticity, lower wall, upper wall, positio, and velocity.
+Analytical solution to a bouncing ball written in Lua. Evaluate the position of a ball given initial conditions elasticity, lower wall, upper wall, position, and velocity.
 
 ```lua
 local bouncer = require("bouncer")
